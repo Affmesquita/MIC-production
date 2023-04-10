@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@font-face {
+    font-family: pacifico;
+    src: url(/fontes/Pacifico-Regular.ttf);
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 100px;
+
+    padding: 0px 150px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#logo-nav {
+    font-family: pacifico;
+    font-size: 4rem;
+}
+
+.list-nav {
+    display: flex;
+}
+.list-nav > li {
+    margin: 0px 20px;
+
+    font-weight: 100;
+}
+.list-nav a {
+    color: black;
+}
+
+.pesquisa-nav {
+    width: 150px;
+    height: 35px;
+
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.btn-nav {
+    width: 60px;
+    height: 35px;
+
+    font-weight: bolder;
+    color: white;
+
+    border-radius: 8px;
+    border: 1px solid grey;
+
+    background-color: #D90D1E;
+
+    cursor: pointer;
+}
+
+/* body */
+
+.banner {
+    width: 100%;
+    height: 500px;
+
+    padding: 200px;
+
+    background-image: url(/imagine/background1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner h1 {
+    font-size: 4rem;
+}
