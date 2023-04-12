@@ -86,6 +86,16 @@ header {
     cursor: pointer;
 }
 
+
+.hamburger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
 /* body */
 
 .banner {
